@@ -162,7 +162,7 @@ nav ul li a:hover::after{
     color: #66ff66;
     font-size: 40px;
     font-weight: 600;
-    margin-top: -30px;
+    margin-top: 10px;
     margin-left: 0px;
     animation: blinker 4s linear infinite;
   }
@@ -194,9 +194,11 @@ nav ul li a:hover::after{
 
 .contact-left{
     flex-basis: 35%;
+    margin-top: 40px;
 }
 .contact-right{
     flex-basis: 60%;
+    margin-top: 40px;
 }
 .contact-left p{
     margin-top: 20px;
