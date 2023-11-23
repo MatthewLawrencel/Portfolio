@@ -336,8 +336,15 @@ nav .fa-solid{
         background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 250px;
         font-size: 16px;
+    }
+    #header{
+        width:130vw;
+        height:100vh;
+        background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
+        background-size: cover;
+        background-position: center;
     }
     .header-text h1{
         font-size: 30px;
@@ -349,25 +356,31 @@ nav .fa-solid{
         display: block;
         font-size: 25px;
     }
+    #headings{
+        font-size: 20px;
+    }
+   li a #heading{
+    padding-bottom: 10px;
+   }
     nav .fa-solid{
         display: block;
         font-size: 25px;
         margin-left: 30px;
     }
     nav ul{
-        background: red;
+        background: gray;
         position: fixed;
         top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
+        right: 0px;
+        width: 150px;
+        height: 70vh;
+        padding-top: 40px;
+        padding-bottom: -200px;
         z-index: 2;
         transition: right 0.5s;
     }
     nav ul li{
-        display: block;
-        margin: 25px;
+        margin: 5px;
     }
     nav ul .fa-sharp .fa-solid{
         position: absolute;
@@ -384,6 +397,7 @@ nav .fa-solid{
     }
     .about-col-1{
         margin-bottom: 20px;
+        margin-top: 30px;
     }
     .about-col-2{
         font-size: 14px;
@@ -415,13 +429,19 @@ nav .fa-solid{
         margin-left: -23px;
     }
     .btn1{
-        margin-left: 100px;
+        margin-left: 20px;
     }
     .copyright{
         font-size: 14px;
+        width:130vw;
+        text-align:center ;
+        padding: 25px 0;
+        background:gray;
+        font-weight: 300; 
+        margin-top: 20px;
     }
     #certificate h4{
-        margin-left: -250px;
+        margin-left: -70px;
         margin-top: -60px;
     }
     .sub-title{
