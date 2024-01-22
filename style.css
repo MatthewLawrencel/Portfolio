@@ -123,7 +123,7 @@ nav ul li a:hover::after{
     list-style: none;
     font-size: 20px;
     border-radius: 14px;
-    background-color:blue;
+    background-color:grey;
 }
 #proj a{
     list-style: none;
