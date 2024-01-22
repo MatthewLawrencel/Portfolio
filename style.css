@@ -123,13 +123,13 @@ nav ul li a:hover::after{
     list-style: none;
     font-size: 20px;
     border-radius: 14px;
-    background-color:grey;
+    background-color:#e7e3e5;
 }
 #proj a{
     list-style: none;
     text-decoration: none;
     font-size: 14px;
-    color: white;
+    color: black;
 }
 /* ------------------------certificate------------------------- */
 
